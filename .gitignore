@@ -1,0 +1,14 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+data/training.csv
+models/*.joblib
+models/*.tmp
+!models/toxicity_model.joblib
+.pytest_cache/
+.idea/
+.vscode/
